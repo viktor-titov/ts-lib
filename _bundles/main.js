@@ -1,0 +1,2 @@
+var e={d:(r,o)=>{for(var t in o)e.o(o,t)&&!e.o(r,t)&&Object.defineProperty(r,t,{enumerable:!0,get:o[t]})},o:(e,r)=>Object.prototype.hasOwnProperty.call(e,r)},r={};function o(){return"hello"}function t(e){return`hello ${e}`}e.d(r,{F:()=>t,j:()=>o});var n=r.F,l=r.j;export{n as greetings,l as hello};
+//# sourceMappingURL=main.js.map

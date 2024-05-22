@@ -24,10 +24,7 @@ module.exports = {
                 test: /\.[jt]sx?$/,
                 exclude: /node_modules/,
                 use: {
-                    loader: "babel-loader",
-                    options: {
-                        cacheDirectory: true, // Using a cache to avoid of recompilation
-                    },
+                    loader: "ts-loader",
                 },
             },
         ],
